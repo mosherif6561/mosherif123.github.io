@@ -1,0 +1,916 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.WebLogo {
+    width: 59px;
+    position: absolute;
+    left: 50px;
+}
+
+.navbar {
+    height: 57px;
+    overflow: hidden;
+    background-color: rgb(34, 34, 34);
+    font-family: Arial;
+    display: flex;
+    justify-content: center;
+    z-index: 100000;
+    margin-bottom: 25px;
+}
+
+.navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 20px 23px;
+    text-decoration: none;
+}
+
+.dropdown { overflow: hidden; }
+
+.dropdown .dropbtn {
+    padding-left: 22px;
+    padding-right: 22px;
+    height: 57px;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    background-color: inherit;
+}
+
+.navbar a:hover,
+.dropdown:hover .dropbtn {
+    background-color: rgb(231, 13, 13);
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1000000000000;
+}
+
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.active {
+    background-color: rgb(231, 13, 13);
+}
+
+body {
+    min-width: 1vw;
+    position: relative;
+    background: #062830;
+    min-height: 1vh;
+}
+
+.history {
+    background-color: #02181d;
+    position: absolute;
+    width: 98%;
+    height: 96px;
+    left: 10px;
+    top: 1060px;
+    border-radius: 5px;
+    border: 5px solid rgb(15, 8, 39);
+}
+
+.history p {
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: justify;
+    position: absolute;
+    font-weight: 600;
+    color: rgb(149, 149, 173);
+}
+
+.Guinness {
+    width: 285px;
+    height: 323px;
+    position: absolute;
+    top: 1286px;
+    left: 617px;
+    background-color: #DC052D;
+    border-radius: 8px;
+    z-index: 999999;
+}
+
+.goals_5 {
+    width: 100%;
+}
+
+.overlay {
+    z-index: 999999;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(34, 34, 34);
+    position: absolute;
+    bottom: 100%;
+    left: 0;
+    right: 0;
+    height: 0%;
+    transition: .7s ease;
+}
+
+.Guinness:hover .overlay {
+    bottom: 0;
+    height: 100%;
+}
+
+.Guinness_text {
+    opacity: 0;
+    width: 258px;
+    height: 282px;
+    white-space: wrap;
+    color: white;
+    font-size: 17px;
+    position: absolute;
+    padding-left: 5px;
+    overflow: hidden;
+    top: 171px;
+    left: 141px;
+    transform: translate(-50%, -50%);
+    transition: opacity .7s ease;
+    text-align: justify;
+}
+
+.Guinness:hover .Guinness_text {
+    opacity: 1;
+    position: absolute;
+    top: 171px;
+    left: 141px;
+}
+
+.stadiums {
+    background-color: #02181d;
+    border-radius: 5px;
+    position: absolute;
+    width: 98%;
+    height: 1140px;
+    top: 1771px;
+    left: 14px;
+}
+
+.famous_stadiums {
+    font-weight: bolder;
+    position: absolute;
+    top: 18px;
+    left: 520px;
+}
+
+.stadiums p {
+    position: relative;
+    color: #ddd;
+    font-weight: bold;
+    text-align: center;
+    background-color: #DC052D;
+    height: 60px;
+    width: 95%;
+    left: 39px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.Westfalenstadion {
+    position: absolute;
+    left: 20px;
+    top: 81px;
+    width: 700px;
+    height: 474px;
+    background-color: #DC052D;
+    border-radius: 8px;
+    z-index: 999999;
+}
+
+.Wstadium {
+    width: 100%;
+}
+
+.W_overlay {
+    z-index: 999999;
+    background-color: #DC052D;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 0%;
+    height: 100%;
+    transition: .7s ease;
+}
+
+.Westfalenstadion:hover .W_overlay {
+    bottom: 0;
+    width: 100%;
+}
+
+.Wstadium_text {
+    opacity: 0;
+    width: 0%;
+    height: 0%;
+    white-space: wrap;
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    padding-left: 5px;
+    overflow: hidden;
+    top: 280px;
+    left: 184px;
+    transform: translate(-50%, -50%);
+    transition: opacity .7s ease 0.2s;
+    text-align: justify;
+}
+
+.Westfalenstadion:hover .Wstadium_text {
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+    top: 395px;
+    left: 261px;
+}
+
+.Allianz_Arena {
+    position: absolute;
+    left: 770px;
+    top: 81px;
+    width: 700px;
+    height: 474px;
+    background-color: #DC052D;
+    border-radius: 8px;
+    z-index: 999999;
+}
+
+.Astadium {
+    width: 100%;
+}
+
+.A_overlay {
+    z-index: 999999;
+    background-color: #DC052D;
+    position: absolute;
+    bottom: 0;
+    left: 100%;
+    right: 0;
+    width: 0%;
+    height: 100%;
+    transition: .7s ease;
+}
+
+.Allianz_Arena:hover .A_overlay {
+    left: 0;
+    width: 100%;
+}
+
+.Astadium_text {
+    opacity: 0;
+    width: 0%;
+    height: 0%;
+    white-space: wrap;
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    padding-left: 5px;
+    overflow: hidden;
+    top: 64px;
+    left: 0px;
+    transform: translate(10%, 10%);
+    transition: opacity .7s ease 0.2s;
+    text-align: justify;
+}
+
+.Allianz_Arena:hover .Astadium_text {
+    opacity: 1;
+    width: 100%;
+    height: 100%;
+    top: 103px;
+    left: -128px;
+}
+
+.Olympiastadion_Berlin {
+    position: absolute;
+    left: 389px;
+    top: 590px;
+    width: 753px;
+    height: 510px;
+    background-color: #DC052D;
+    border-radius: 8px;
+    z-index: 999999;
+}
+
+.Ostadium {
+    width: 100%;
+}
+
+.O_overlay {
+    z-index: 999999;
+    background-color: #DC052D;
+    position: absolute;
+    bottom: 100%;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 0;
+    transition: .7s ease;
+}
+
+.Olympiastadion_Berlin:hover .O_overlay {
+    height: 100%;
+    bottom: 0;
+}
+
+.Ostadium_text {
+    opacity: 0;
+    width: 0%;
+    height: 0%;
+    white-space: wrap;
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    padding-left: 5px;
+    overflow: hidden;
+    top: 280px;
+    left: 184px;
+    transform: translate(10%, 10%);
+    transition: opacity .7s ease 0.2s;
+    text-align: justify;
+}
+
+.Olympiastadion_Berlin:hover .Ostadium_text {
+    opacity: 1;
+    width: 100%;
+    height: 100%;
+    top: 91px;
+    left: -145px;
+}
+
+caption {
+    background-color: rgb(248, 19, 38);
+    color: #ddd;
+    font-weight: bold;
+    text-align: center;
+}
+
+aside {
+    position: relative;
+}
+
+.top {
+    font-weight: 450;
+    border-radius: 5px;
+    position: absolute;
+    left: 7px;
+    top: 228px;
+    width: 40%;
+    border-collapse: collapse;
+    background-color: white;
+}
+
+.top th {
+    text-align: left;
+    padding: 8px;
+}
+
+.top td {
+    text-align: left;
+    padding: 8px;
+}
+
+.top tr {
+    text-align: left;
+    padding: 8px;
+    border-bottom: 2px solid transparent;
+}
+
+.top tr:nth-child(odd) {
+    background-color: rgb(221, 221, 221);
+}
+
+.top tr:hover {
+    color: white;
+    opacity: 0.9;
+    background-color: rgb(248, 19, 38);
+}
+
+.topC {
+    font-weight: 450;
+    border-radius: 5px;
+    position: absolute;
+    width: 40%;
+    top: 228px;
+    right: 7px;
+    border-collapse: collapse;
+    background-color: white;
+    border-spacing: 30px;
+}
+
+.topC,
+th,
+td {
+    border-spacing: 20px;
+}
+
+.topC th {
+    text-align: left;
+    padding: 8px;
+}
+
+.topC td {
+    padding: 8px;
+}
+
+.topC tr {
+    padding: 8px;
+    border-bottom: 2px solid rgb(206, 10, 10);
+}
+
+.topC tr:nth-child(even) {
+    background-color: rgb(212, 212, 212);
+}
+
+.topC th:nth-child(odd) {
+    background-color: rgb(212, 212, 212);
+}
+
+.topC td:hover {
+    color: white;
+    opacity: 0.9;
+    background-color: rgb(248, 19, 38);
+}
+
+.topC th:hover {
+    color: white;
+    opacity: 0.9;
+    background-color: rgb(248, 19, 38);
+}
+
+section::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to top, #062830, transparent);
+    z-index: 1000;
+}
+
+section::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+    background: #062830;
+    z-index: 1000;
+    mix-blend-mode: color;
+}
+
+section {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#André_Silva {
+    position: absolute;
+    top: -20px;
+    left: 670px;
+    width: 35%;
+    pointer-events: none;
+}
+
+#haaland {
+    position: absolute;
+    top: -20px;
+    left: 262px;
+    width: 42%;
+    pointer-events: none;
+}
+
+#Lewandowski {
+    position: absolute;
+    top: 30px;
+    left: -250px;
+    width: 37%;
+    pointer-events: none;
+}
+
+#Bellingham {
+    position: absolute;
+    top: 20px;
+    left: 120px;
+    width: 33%;
+    pointer-events: none;
+}
+
+#muller {
+    position: absolute;
+    top: 90px;
+    left: 1050px;
+    width: 52%;
+    pointer-events: none;
+}
+
+#reus {
+    position: absolute;
+    top: 100px;
+    left: 950px;
+    width: 30%;
+    pointer-events: none;
+}
+
+#paper_1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    pointer-events: none;
+}
+
+#paper_2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    pointer-events: none;
+    z-index: -1;
+}
+
+#bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    pointer-events: none;
+    z-index: -1;
+}
+
+#text {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 5vw;
+    text-shadow: -5px 0 rgb(255, 255, 255), 0 5px rgb(255, 255, 255), 5px 0 rgb(255, 255, 255), 0 -5px rgb(255, 255, 255);
+    color: rgb(238, 15, 15);
+    font-size: 10em;
+    z-index: 1;
+}
+
+#paper_1 {
+    z-index: 2;
+}
+
+.states {
+    position: absolute;
+    width: 95%;
+    top: 340%;
+}
+
+.top_scorer {
+    position: absolute;
+    width: 185px;
+    height: 220px;
+    top: 177%;
+    left: 16px;
+    z-index: 10000000;
+}
+
+.top_assists {
+    position: absolute;
+    width: 185px;
+    height: 220px;
+    top: 177%;
+    left: 210px;
+    z-index: 10000000;
+}
+
+.top_saves {
+    position: absolute;
+    width: 185px;
+    height: 220px;
+    top: 177%;
+    left: 404px;
+    z-index: 1000000;
+}
+
+.Scored_Goals {
+    position: absolute;
+    width: 185px;
+    height: 220px;
+    top: 177%;
+    right: -70px;
+    z-index: 1000000;
+}
+
+.penalties_Scored {
+    position: absolute;
+    width: 185px;
+    height: 220px;
+    top: 177%;
+    right: 124px;
+    z-index: 1000000;
+}
+
+.Own_Goals {
+    position: absolute;
+    height: 220px;
+    top: 177%;
+    right: 318px;
+    z-index: 1000000;
+}
+
+.BA_photo {
+    width: 100px;
+    position: absolute;
+    opacity: 1;
+    transition: opacity 1s ease 0s;
+    top: 23%;
+    right: 50%;
+    left: 24%;
+    bottom: 43%;
+}
+
+.BA_photo:hover {
+    opacity: 0.8;
+    transform: scale(1.1, 1.1);
+}
+
+.WO_photo {
+    width: 100px;
+    position: absolute;
+    opacity: 1;
+    transition: opacity 1s ease 0s;
+    top: 24%;
+    right: 50%;
+    left: 22%;
+    bottom: 43%;
+}
+
+.WO_photo:hover {
+    opacity: 0.8;
+    transform: scale(1.1, 1.1);
+}
+
+.BO_photo {
+    width: 120px;
+    position: absolute;
+    opacity: 1;
+    transition: opacity 1s ease 0s;
+    top: 22%;
+    right: 50%;
+    left: 18%;
+    bottom: 43%;
+}
+
+.BO_photo:hover {
+    opacity: 0.8;
+    transform: scale(1.1, 1.1);
+}
+
+.Yann_photo {
+    width: 100px;
+    position: absolute;
+    opacity: 1;
+    transition: opacity 1s ease 0s;
+    top: 15%;
+    right: 50%;
+    left: 18%;
+    bottom: 43%;
+}
+
+.Yann_photo:hover {
+    opacity: 0.8;
+    transform: scale(1.1, 1.1);
+}
+
+.lv_photo {
+    width: 214px;
+    position: absolute;
+    opacity: 1;
+    transition: opacity 1s ease 0s;
+    top: 15%;
+    right: 50%;
+    left: -8%;
+    bottom: 43%;
+}
+
+.lv_photo:hover {
+    opacity: 0.8;
+    transform: scale(1.1, 1.1);
+}
+
+.mu_photo {
+    width: 214px;
+    position: absolute;
+    opacity: 1;
+    transition: opacity 1s ease 0s;
+    top: 15%;
+    right: 50%;
+    left: -8%;
+    bottom: 43%;
+}
+
+.mu_photo:hover {
+    opacity: 0.8;
+    transform: scale(1.1, 1.1);
+}
+
+.stats {
+    border-radius: 5%;
+    position: absolute;
+    text-align: center;
+    top: -14px;
+    height: 52px;
+    left: -1px;
+    width: 185px;
+    color: rgb(228, 228, 228);
+    background-color: #000000;
+}
+
+.stats:hover {
+    background-color: white;
+    color: rgb(43, 43, 43);
+    ;
+}
+
+span {
+    position: absolute;
+    left: 50px;
+    top: 10px;
+}
+
+.up {
+    position: absolute;
+    top: 100%;
+    border-radius: 5px;
+    font-weight: bold;
+    text-align: center;
+    width: 185px;
+    height: 40px;
+    background-color: #000000;
+    color: white;
+    position: sticky;
+    top: 100%;
+    left: 0px;
+}
+
+.up:hover {
+    background-color: white;
+    color: rgb(43, 43, 43);
+}
+
+.red_S {
+    border-radius: 5px;
+    background-color: #62C47E;
+    width: 185px;
+    height: 200px;
+    position: relative;
+}
+
+.red_GC {
+    border-radius: 5px;
+    background-color: #DC052D;
+    width: 185px;
+    height: 200px;
+    position: relative;
+}
+
+.red_GP {
+    border-radius: 5px;
+    background-color: #DC052D;
+    width: 185px;
+    height: 200px;
+    position: relative;
+}
+
+.red_A {
+    border-radius: 5px;
+    background-color: #DC052D;
+    width: 185px;
+    height: 200px;
+    position: relative;
+}
+
+.red_P {
+    border-radius: 5px;
+    background-color: #FFE600;
+    width: 185px;
+    height: 200px;
+    position: relative;
+}
+
+.red_O {
+    border-radius: 5px;
+    background-color: #009932;
+    width: 185px;
+    height: 200px;
+    position: relative;
+}
+
+.black {
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    width: 185px;
+    height: 43px;
+    background-color: #0a2629;
+    position: absolute;
+    bottom: 0%;
+    right: 0%;
+}
+
+.clubs {
+    position: relative;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+    align-content: center;
+    border-radius: 10px;
+    background-color: #020e11;
+    width: 100%;
+    height: 100%;
+}
+
+.logos_1 {
+    display: flex;
+    position: absolute;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+    align-content: center;
+    left: 4px;
+    top: 55px;
+    height: 66px;
+}
+
+.logos_2 {
+    position: absolute;
+    display: flex;
+    height: 66px;
+    left: 867px;
+    top: 55px;
+}
+
+.logos_0 {
+    width: 251px;
+    height: 200px;
+    position: relative;
+    top: -14px;
+    left: -90px;
+}
+
+.bundesliga {
+    position: absolute;
+    width: 100%;
+    align-self: center;
+    top: 15px;
+    left: 50px;
+}
+
+.media {
+    width: auto;
+    height: 400px;
+    position: absolute;
+    top: 2880px;
+    left: 510px;
+}
+
+audio {
+    position: absolute;
+    top: 450px;
+    left: 100px;
+}
+
+video {
+    position: absolute;
+    top: 80px;
+    left: -65px;
+}
