@@ -1,13 +1,4 @@
-/* let bg = document.getElementById("bg")
-        let André_Silva = document.getElementById("André_Silva")
-        let haaland = document.getElementById("haaland")
-        let Bellingham = document.getElementById("Bellingham")
-        let Lewandowski = document.getElementById("Lewandowski")
-        let muller = document.getElementById("muller")
-        let reus = document.getElementById("reus")
-        let paper_1 = document.getElementById("paper_1")
-        let paper_2 = document.getElementById("paper_2")
-        let text = document.getElementById("text") */
+
 window.addEventListener('scroll', function() {
     var value = window.scrollY;
     bg.style.top = value * 0.5 + 'px';
