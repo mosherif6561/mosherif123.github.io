@@ -1,6 +1,6 @@
 *{ font-family: arial;}
 
-td:hover{ cursor: pointer;}
+td:hover{ cursor: pointer; }
 
 body{
 background-color:#842D72 ;
@@ -19,13 +19,15 @@ html { scroll-behavior:smooth; }
 background-color: #151515;
 color: #ddd;}
 
-.dark th { background-color: #3A3845;
+.dark th { 
+background-color: #3A3845;
 color: #d713b0;}
 
-.dark .derby{ background-color: #3C415C;
+.dark .derby{ 
+background-color: #3C415C;
 border-radius: 12px;}
 
-.dark .derby{color: #ddd;}
+.dark .derby{ color: #ddd;}
 
 .dark .derby h2{ background-color: #B4A5A5;}
 
@@ -45,9 +47,9 @@ cursor: pointer;}
   background-color: #301B3F;
   color: #B4A5A5; }
 
-.dark .egyply{ background-color: #301B3F;
-  color: #B4A5A5;}
-
+.dark .egyply{ 
+background-color: #301B3F;
+ color: #B4A5A5;}
 
 #dark-mode{
 position:absolute;
@@ -246,7 +248,8 @@ a{
 color:#EE316B;
 text-decoration: none;}
 
-a:hover{ color: #661e71;
+a:hover{ 
+color: #661e71;
 text-decoration: underline;}
 
 #for{
@@ -264,7 +267,10 @@ padding: 20px;
 box-shadow:13px 13px 0px 1px rgba(255, 255, 255, 0.18);
 }
        
-.derby { background-color: rgb(249, 247, 241,0.6);}
+.derby {
+background-color: rgb(249, 247, 241,0.6);
+border-radius: 12px;
+}
        
 .derby h2{
 color: rgb(0, 0, 0);
