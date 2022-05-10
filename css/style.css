@@ -169,6 +169,31 @@ cursor: pointer;}
 margin: 0px; 
 margin-right: 2%;
 }
+
+#season{
+background-color: #EE316B;
+height: fit-content;
+padding: 3px;}
+
+#caption1{
+background-color: #EE316B;
+height: fit-content;
+padding: 3px;}
+
+#caption2 {
+background-color: #EE316B;
+font-size: large; 
+padding: 5px; 
+font-family:sans-serif;}
+
+.derbyy{ 
+border: 0px solid white;
+border-radius: 15px;}
+
+.player{ 
+font-size: larger;
+line-height: 1.5;
+padding: 0px 8px;}
   
 .whitebg{
 background-color:#aaa;
@@ -371,16 +396,15 @@ border-radius: 10px;}
 
 #Btn:hover { background-color: black;}
 
-
 #manchester{ top: 800px;}
 
 #northlondon{ top: 1085px;}
 
-#northwest { top: 1380px;}
+#northwest { top: 1370px;}
 
-#london{ top: 1590px;}
+#london{ top: 1580px;}
 
-#mersi{ top: 1834px;}
+#mersi{ top: 1830px;}
 
 #mohamedsalah{
 background-color: #EE316B;
