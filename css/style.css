@@ -162,7 +162,8 @@ left: 50px;}
 
 td:hover{ 
 background-color: #661e71;
-color: white;}
+color: white;
+cursor: pointer;}
   
 .whitebg{
 background-color:#aaa;
