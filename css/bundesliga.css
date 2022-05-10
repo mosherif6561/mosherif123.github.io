@@ -77,12 +77,15 @@
 .active {
     background-color: rgb(231, 13, 13);
 }
+html {
+    scroll-behavior: smooth;
+}
 
 body {
-    min-width: 1vw;
+    position: relative;
+    overflow-x: hidden;
     position: relative;
     background: #062830;
-    min-height: 1vh;
 }
 
 .history {
@@ -107,11 +110,10 @@ body {
 
 .Guinness {
     width: 285px;
-    height: 323px;
+    height: 324px;
     position: absolute;
     top: 1286px;
     left: 617px;
-    background-color: #DC052D;
     border-radius: 8px;
     z-index: 999999;
 }
@@ -123,14 +125,12 @@ body {
 .overlay {
     z-index: 999999;
     width: 100%;
-    height: 100%;
+    height: 0%;
     background-color: rgb(34, 34, 34);
     position: absolute;
     bottom: 100%;
-    left: 0;
-    right: 0;
-    height: 0%;
     transition: .7s ease;
+    overflow: hidden;
 }
 
 .Guinness:hover .overlay {
@@ -141,25 +141,23 @@ body {
 .Guinness_text {
     opacity: 0;
     width: 258px;
-    height: 282px;
-    white-space: wrap;
+    height: 283px;
     color: white;
     font-size: 17px;
     position: absolute;
     padding-left: 5px;
-    overflow: hidden;
-    top: 171px;
-    left: 141px;
-    transform: translate(-50%, -50%);
-    transition: opacity .7s ease;
-    text-align: justify;
+    top: 26px;
+    left: 9px;
+    transform: translate(0%, 50%);
+    transition: .7s ease;
 }
 
 .Guinness:hover .Guinness_text {
     opacity: 1;
+    transform: translate(0%, 00%);
     position: absolute;
-    top: 171px;
-    left: 141px;
+    top: 26px;
+    left: 9px;
 }
 
 .stadiums {
@@ -212,15 +210,12 @@ body {
     background-color: #DC052D;
     position: absolute;
     bottom: 0;
-    left: 0;
-    right: 0;
     width: 0%;
     height: 100%;
     transition: .7s ease;
 }
 
 .Westfalenstadion:hover .W_overlay {
-    bottom: 0;
     width: 100%;
 }
 
@@ -228,8 +223,7 @@ body {
     opacity: 0;
     width: 0%;
     height: 0%;
-    white-space: wrap;
-    color: white;
+    color: rgb(34, 34, 34);
     font-size: 20px;
     position: absolute;
     padding-left: 5px;
@@ -270,7 +264,6 @@ body {
     position: absolute;
     bottom: 0;
     left: 100%;
-    right: 0;
     width: 0%;
     height: 100%;
     transition: .7s ease;
@@ -285,8 +278,7 @@ body {
     opacity: 0;
     width: 0%;
     height: 0%;
-    white-space: wrap;
-    color: white;
+    color: rgb(34, 34, 34);
     font-size: 20px;
     position: absolute;
     padding-left: 5px;
@@ -343,7 +335,7 @@ body {
     width: 0%;
     height: 0%;
     white-space: wrap;
-    color: white;
+    color: rgb(34, 34, 34);
     font-size: 20px;
     position: absolute;
     padding-left: 5px;
@@ -423,12 +415,6 @@ aside {
     border-spacing: 30px;
 }
 
-.topC,
-th,
-td {
-    border-spacing: 20px;
-}
-
 .topC th {
     text-align: left;
     padding: 8px;
@@ -444,10 +430,6 @@ td {
 }
 
 .topC tr:nth-child(even) {
-    background-color: rgb(212, 212, 212);
-}
-
-.topC th:nth-child(odd) {
     background-color: rgb(212, 212, 212);
 }
 
@@ -487,7 +469,7 @@ section::after {
 
 section {
     position: relative;
-    width: 100%;
+    width: 100vw;
     height: 100vh;
     overflow: hidden;
     display: flex;
@@ -593,6 +575,7 @@ section {
     position: absolute;
     width: 95%;
     top: 340%;
+    left: -5px;
 }
 
 .top_scorer {
@@ -654,9 +637,7 @@ section {
     opacity: 1;
     transition: opacity 1s ease 0s;
     top: 23%;
-    right: 50%;
     left: 24%;
-    bottom: 43%;
 }
 
 .BA_photo:hover {
@@ -670,9 +651,7 @@ section {
     opacity: 1;
     transition: opacity 1s ease 0s;
     top: 24%;
-    right: 50%;
     left: 22%;
-    bottom: 43%;
 }
 
 .WO_photo:hover {
@@ -686,9 +665,7 @@ section {
     opacity: 1;
     transition: opacity 1s ease 0s;
     top: 22%;
-    right: 50%;
     left: 18%;
-    bottom: 43%;
 }
 
 .BO_photo:hover {
@@ -704,7 +681,6 @@ section {
     top: 15%;
     right: 50%;
     left: 18%;
-    bottom: 43%;
 }
 
 .Yann_photo:hover {
@@ -720,7 +696,6 @@ section {
     top: 15%;
     right: 50%;
     left: -8%;
-    bottom: 43%;
 }
 
 .lv_photo:hover {
@@ -736,7 +711,6 @@ section {
     top: 15%;
     right: 50%;
     left: -8%;
-    bottom: 43%;
 }
 
 .mu_photo:hover {
@@ -744,25 +718,7 @@ section {
     transform: scale(1.1, 1.1);
 }
 
-.stats {
-    border-radius: 5%;
-    position: absolute;
-    text-align: center;
-    top: -14px;
-    height: 52px;
-    left: -1px;
-    width: 185px;
-    color: rgb(228, 228, 228);
-    background-color: #000000;
-}
-
-.stats:hover {
-    background-color: white;
-    color: rgb(43, 43, 43);
-    ;
-}
-
-span {
+.upspan {
     position: absolute;
     left: 50px;
     top: 10px;
@@ -788,7 +744,7 @@ span {
     color: rgb(43, 43, 43);
 }
 
-.red_S {
+.BG_S {
     border-radius: 5px;
     background-color: #62C47E;
     width: 185px;
@@ -796,7 +752,7 @@ span {
     position: relative;
 }
 
-.red_GC {
+.BG_GC {
     border-radius: 5px;
     background-color: #DC052D;
     width: 185px;
@@ -804,7 +760,7 @@ span {
     position: relative;
 }
 
-.red_GP {
+.BG_GP {
     border-radius: 5px;
     background-color: #DC052D;
     width: 185px;
@@ -812,7 +768,7 @@ span {
     position: relative;
 }
 
-.red_A {
+.BG_A {
     border-radius: 5px;
     background-color: #DC052D;
     width: 185px;
@@ -820,7 +776,7 @@ span {
     position: relative;
 }
 
-.red_P {
+.BG_P {
     border-radius: 5px;
     background-color: #FFE600;
     width: 185px;
@@ -828,12 +784,29 @@ span {
     position: relative;
 }
 
-.red_O {
+.BG_O {
     border-radius: 5px;
     background-color: #009932;
     width: 185px;
     height: 200px;
     position: relative;
+}
+
+.Number {
+    border-radius: 5%;
+    position: absolute;
+    text-align: center;
+    top: -14px;
+    height: 52px;
+    left: -1px;
+    width: 185px;
+    color: rgb(228, 228, 228);
+    background-color: #000000;
+}
+
+.Number:hover {
+    background-color: white;
+    color: rgb(43, 43, 43);
 }
 
 .black {
@@ -857,7 +830,6 @@ span {
     border-radius: 10px;
     background-color: #020e11;
     width: 100%;
-    height: 100%;
 }
 
 .logos_1 {
@@ -914,3 +886,6 @@ video {
     top: 80px;
     left: -65px;
 }
+
+ 
+
