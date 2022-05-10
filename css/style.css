@@ -1,12 +1,53 @@
+*{ font-family: arial;}
+
+td:hover{ cursor: pointer;}
+
 body{
 background-color:#842D72 ;
 background-attachment:fixed;
 background-image: url(../media/lion.png);
 background-repeat: no-repeat;
 background-position: center;
-background-size: 25%;}
+background-size: 25%;
+}
 
 html { scroll-behavior:smooth; }
+
+.dark{ background-color: #000;}
+
+.dark td { 
+background-color: #151515;
+color: #ddd;}
+
+.dark th { background-color: #3A3845;
+color: #d713b0;}
+
+.dark .derby{ background-color: #3C415C;
+border-radius: 12px;}
+
+.dark .derby{color: #ddd;}
+
+.dark .derby h2{ background-color: #B4A5A5;}
+
+.dark .butt { background-color: #aaa;}
+
+.dark .firstpg{ background-color: #B4A5A5;}
+
+.dark .somestatistics { 
+background-color: #301B3F;
+color: #B4A5A5;}
+
+.dark td:hover { 
+background-color: #661e71;
+cursor: pointer;}
+
+.dark #importantstad{
+  background-color: #301B3F;
+  color: #B4A5A5; }
+
+.dark .egyply{ background-color: #301B3F;
+  color: #B4A5A5;}
+
 
 #dark-mode{
 position:absolute;
@@ -136,9 +177,10 @@ margin-bottom: 1%;}
 background-color: rgb(249, 247, 241,0.6);
 border: 5px solid black;
 font-size: larger;
-line-height: 1.5;
+line-height: 1.4;
 padding: 3px;
-font-weight: bolder;}
+font-weight: 600;
+font-size: 18px;}
   
 .aaa{
 width: 100%;
@@ -169,13 +211,15 @@ border: 2px solid black;
 border-collapse:collapse;
 text-align:center;
 box-sizing: border-box;
-background-color: #F9F7F1;}
+background-color: #F9F7F1;
+font-family:arial;
+font-size: 15px ;}
 
 .somestatistics{
 background-color: #38D7e2;
-width: 220px;
-
-padding: 5px 5px;}
+width: fit-content;
+padding: 5px;
+border-radius: 12px;}
 .parent{ 
 position: relative;
 height: 375px;}
@@ -202,20 +246,23 @@ a{
 color:#EE316B;
 text-decoration: none;}
 
-a:hover{ color: blue;}
+a:hover{ color: #661e71;
+text-decoration: underline;}
 
 #for{
 color: white;
-font-family: Arial, Helvetica, sans-serif;}
+font-family: Arial;}
         
 .top5{
+font-size: 28px;
 text-align:center;
 background-color: #38D7e2;
 width: 600px;
 height: auto;
 margin-left: 430px;
 padding: 20px;
-box-shadow:13px 13px 0px 1px rgba(255, 255, 255, 0.18) ;}
+box-shadow:13px 13px 0px 1px rgba(255, 255, 255, 0.18);
+}
        
 .derby { background-color: rgb(249, 247, 241,0.6);}
        
@@ -226,11 +273,11 @@ text-align: center;
 align-content: center;}
        
 .derby p{
-font-size: larger;
+
 padding: 0px 8px;
 line-height: 1.6;
 width: 75%;
-font-family:Georgia, 'Times New Roman', Times, serif;}
+}
                               
 .flex{ display: flex; }
 
@@ -245,8 +292,12 @@ right: 15px;}
 .egyply{ 
 background-color:#38D7e2;
 height: auto;
-width: 495px;
-padding: 3px 3px;}
+width: 480px;
+padding: 5px;
+font-size: 28px;
+border-radius: 12px;
+padding: 5px;
+}
 
 .butt{
 width: 15%;
@@ -255,11 +306,13 @@ margin: 50px 100px;
 padding: 3px;
 font-size: 25px;
 cursor: pointer;
-background-color: rgb(191, 255, 127);}
+background-color: rgb(191, 255, 127);
+}
 
 .btflex{
 display: flex; 
-align-items: center;}
+align-items: center;
+}
         
 .mo ,.neno ,.tre  { display: none; }
         
@@ -267,8 +320,8 @@ align-items: center;}
 width:40%;
 height:40%;
 position: absolute;
-right: 200px;
-top: 2650px;
+right: 150px;
+top: 2385px;
 background-color: #38D7e2;}
          
 footer{ 
@@ -301,5 +354,36 @@ border-radius: 10px;}
 
 #Btn:hover { background-color: black;}
 
-.tddark{ background-color: #EE316B;
-color: white;}
+
+#manchester{ top: 800px;}
+
+#northlondon{ top: 1085px;}
+
+#northwest { top: 1380px;}
+
+#london{ top: 1590px;}
+
+#mersi{ top: 1834px;}
+
+#mohamedsalah{
+background-color: #EE316B;
+width:fit-content;
+padding: 5px;}
+
+#trezeguet{
+background-color: #EE316B;
+width:fit-content;
+padding: 5px;
+}
+
+#elneny{
+background-color: #EE316B;
+width:fit-content;
+padding: 5px;
+}
+
+#importantstad{
+background-color: #38D7e2;
+width: fit-content;
+border-radius: 12px;
+padding: 5px;}
