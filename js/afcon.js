@@ -9,7 +9,7 @@
  })();
 
  function myFunction() {
-    alert("Your form has been submited successfuly !");
+    alert("Your form has been submited successfully !");
   }
 
 
