@@ -261,7 +261,7 @@ body {
 }
 
 .Most .imgBx {
-    background: url('../media/photos/thumbs_b_c_7cf58176a4dc19b0977f7b1e7b4568dd.jpg');
+    background: url('../media/thumbs_b_c_7cf58176a4dc19b0977f7b1e7b4568dd.jpg');
     width: 50%;
     height: auto;
     background-size: cover;
@@ -424,7 +424,7 @@ body {
 
 .Last_Version .container .contentBx1 {
     background: var(--bg_color8);
-    background: url('../media/photos/Club-World-Cup-2021.jpg');
+    background: url('../media/Club-World-Cup-2021.jpg');
     background-size: cover;
     background-position: center;
     padding: 60px 50px;
@@ -437,7 +437,7 @@ body {
 
 .Last_Version .container .contentBx2 {
     background: var(--bg_color8);
-    background: url('../media/photos/Golden\ Boot.jpg');
+    background: url('../media/Golden\ Boot.jpg');
     background-size: cover;
     background-position: center;
     padding: 60px 50px;
