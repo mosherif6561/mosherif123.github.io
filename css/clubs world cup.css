@@ -722,8 +722,8 @@ form .button input:hover {
 
 .goupbtn {
     position: fixed;
-    width: 50px;
-    height: 50px;
+    width: 30px;
+    height: 30px;
     border-radius: 50%;
     background: var(--bg_color10);
     bottom: 20px;
@@ -735,6 +735,11 @@ form .button input:hover {
     color: white;
     font-size: 22px;
     cursor: pointer;
+}
+.upBtn {
+    width: 21px;
+    filter: invert(1);
+    top: -3px;
 }
 
 
