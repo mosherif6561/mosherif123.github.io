@@ -6,13 +6,14 @@ function scrollupFunction() {
 }
 
 //dark mode
-var content = document.getElementsByTagName("body")[0];
-var darkMode = document.getElementById("dark-mode");
+const darkMode = document.getElementById("dark-mode");
+const body = document.getElementById("dark");
 
-darkMode.addEventListener("click",function(){
-    darkMode.classList.toggle("active");
-    content.classList.toggle("night");
-    
+darkMode.addEventListener("click",function()
+{
+  darkMode.classList.toggle("active"); //label
+   body.classList.toggle("dark"); // body
+
 })();
 
 // button salah 
