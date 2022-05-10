@@ -164,6 +164,11 @@ td:hover{
 background-color: #661e71;
 color: white;
 cursor: pointer;}
+
+#lion{
+margin: 0px; 
+margin-right: 2%;
+}
   
 .whitebg{
 background-color:#aaa;
