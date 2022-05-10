@@ -153,7 +153,7 @@ body {
     font-size: 18px;
 }
 
-.banner header {
+/* .banner header {
     position: absolute;
     top: 0%;
     left: 3%;
@@ -198,7 +198,7 @@ h1::before {
     90% {
         width: 100%;
     }
-}
+} */
 
 body {
     overflow-x: hidden;
