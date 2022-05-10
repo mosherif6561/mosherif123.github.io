@@ -159,6 +159,10 @@ position: absolute;
 left: 50px;}
 
 .active {background-color: #d713b0;}
+
+td:hover{ 
+background-color: #661e71;
+color: white;}
   
 .whitebg{
 background-color:#aaa;
