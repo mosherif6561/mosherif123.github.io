@@ -287,13 +287,9 @@ font-weight: 600;}
 #comp :hover{ background-color: #557B83;}
 
 #form{
-
 margin-right: auto;
 margin-left: auto;
-margin-top: 1%; }
-/*172774*/
-
-.feedback{
+margin-top: 1%; 
 border: #01603d solid 10px;
 border-radius: 15px;
 height: fit-content;
@@ -304,7 +300,8 @@ box-sizing: border-box;
 display: none;
 box-shadow: 0 25px 16px 0 rgba(0,0,0,0.2); 
 background-color: #e5efc1bb;
-margin-bottom: 2%;}
+margin-bottom: 1%;
+}
   
 textarea {
 width:100%;
