@@ -11,3 +11,5 @@ function scrollupFunction() {
   document.body.scrollTop = 0;
   document.documentElement.scrollTop = 0;
 }
+
+ src = "../js/skrollr.js "
