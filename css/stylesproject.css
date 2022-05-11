@@ -8,7 +8,28 @@ body {
     margin: 0;
     text-align: left;
 }
-.active{ background-color: rgb(11, 14, 82);}
+
+.active { 
+    background-color: rgb(11, 14, 82);
+}
+
+#Btn {
+    position: fixed;
+    bottom: 10px;
+    right: 15px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    background-color: rgb(51, 0, 255);
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 50%;
+}
+    
+#Btn:hover { 
+    background-color: black;
+}
 
 #dark-mode
   {
