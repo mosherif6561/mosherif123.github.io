@@ -73,9 +73,10 @@ header .navbar ul li a:hover {
     background: var(--bg_color12);
 }
  .WebLogo {
-  width: 59px;
-  position: absolute;
-  left: 50px;
+     cursor: pointer;
+     width: 59px;
+     position: absolute;
+     left: 50px;
 }
 header .navbar ul li ul {
     position: absolute;
