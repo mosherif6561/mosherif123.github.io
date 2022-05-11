@@ -46,6 +46,7 @@
     position: relative;
     left: 25%;
     z-index: 10000000;
+    height: 55px;
 }
 
 header .navbar ul {
@@ -61,7 +62,7 @@ header .navbar ul li {
 
 header .navbar ul li a {
     font-size: 20px;
-    padding: 20px;
+    padding: 16px;
     color: var(--text_color1);
     display: block;
     text-decoration: none;
@@ -479,28 +480,6 @@ aside {
     background-color: rgb(248, 19, 38);
 }
 
-section::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: linear-gradient(to top, #062830, transparent);
-    z-index: 1000;
-}
-
-section::after {
-    content: '';
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    height: 100px;
-    background: #062830;
-    z-index: 1000;
-    mix-blend-mode: color;
-}
-
  section {
     position: relative;
     width: 100vw;
@@ -516,7 +495,6 @@ section::after {
     top: -20px;
     left: 670px;
     width: 35%;
-    pointer-events: none;
 }
 
 #haaland {
@@ -524,7 +502,6 @@ section::after {
     top: -20px;
     left: 262px;
     width: 42%;
-    pointer-events: none;
 }
 
 #Lewandowski {
@@ -532,7 +509,6 @@ section::after {
     top: 30px;
     left: -250px;
     width: 37%;
-    pointer-events: none;
 }
 
 #Bellingham {
@@ -540,7 +516,6 @@ section::after {
     top: 20px;
     left: 120px;
     width: 33%;
-    pointer-events: none;
 }
 
 #muller {
@@ -548,7 +523,6 @@ section::after {
     top: 90px;
     left: 1050px;
     width: 52%;
-    pointer-events: none;
 }
 
 #reus {
@@ -556,7 +530,6 @@ section::after {
     top: 100px;
     left: 950px;
     width: 30%;
-    pointer-events: none;
 }
 
 #paper_1 {
@@ -565,8 +538,6 @@ section::after {
     left: 0;
     width: 100%;
     height: 100%;
-    object-fit: cover;
-    pointer-events: none;
 }
 
 #paper_2 {
@@ -575,9 +546,7 @@ section::after {
     left: 0;
     width: 100%;
     height: 100%;
-    object-fit: cover;
-    pointer-events: none;
-    z-index: -1;
+    z-index: 2 ;
 }
 
 #bg {
@@ -586,8 +555,6 @@ section::after {
     left: 0;
     width: 100%;
     height: 100%;
-    object-fit: cover;
-    pointer-events: none;
     z-index: -1;
 }
 
@@ -601,9 +568,6 @@ section::after {
     z-index: 1;
 }
 
-#paper_1 {
-    z-index: 2;
-}
 
 .states {
     position: absolute;
