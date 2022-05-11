@@ -67,7 +67,7 @@ header .navbar ul li a {
 
 header .navbar ul li a:hover {
     color: var(--text_color2);
-    background: var(--bg_color4);
+    background: var(--bg_color12);
 }
  .WebLogo {
   width: 59px;
@@ -88,7 +88,7 @@ header .navbar ul li ul a {
 }
 
 header .navbar ul li ul a:hover {
-    background: var(--bg_color4);
+   background: var(--bg_color12);
     color: var(--text_color2);
 }
 
