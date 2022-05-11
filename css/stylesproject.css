@@ -22,8 +22,8 @@ body {
     background-color: rgb(51, 0, 255);
     color: white;
     cursor: pointer;
-    padding: 15px;
-    border-radius: 70%;
+    padding: 10px;
+    border-radius: 60%;
 }
 
 #dark-mode
@@ -191,6 +191,7 @@ td .borderth {
     border-spacing: 2px;
     border-color: white;
 }
+
 .fifa:hover {
     background-color: #ddd;
 }
@@ -230,6 +231,10 @@ td {
     border: 1px solid #5c5b5b;
     text-align: left;
     padding: 8px;
+}
+
+td:hover {
+    background-color: white;
 }
 
 tr:nth-child(even) {
@@ -275,12 +280,11 @@ img {
     border-radius: 20px;
     padding: 6px 15px;
     float: right;
+    right: 24px;
     overflow: hidden;
     text-decoration: none;
     font-size: 18px;
     font-family: 'Source Sans Pro', sans-serif;
-   
-  
 }
 
 .down {
