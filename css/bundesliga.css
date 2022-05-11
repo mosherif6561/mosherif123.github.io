@@ -478,7 +478,7 @@ aside {
     background-color: rgb(248, 19, 38);
 }
 
-section::before {
+.players::before {
     content: '';
     position: absolute;
     top: 0;
@@ -489,7 +489,7 @@ section::before {
     z-index: 1000;
 }
 
-section::after {
+.players::after {
     content: '';
     position: absolute;
     bottom: 0;
@@ -500,7 +500,7 @@ section::after {
     mix-blend-mode: color;
 }
 
-section .players {
+ .players {
     position: relative;
     width: 100vw;
     height: 100vh;
