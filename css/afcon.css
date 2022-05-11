@@ -161,6 +161,8 @@ background-color: #e5efc1bb;
 padding: 5px; 
 border-radius: 12px; }
 
+.c1b,.c1c:hover{ cursor: pointer;}
+
 .main{flex-direction: row}
 
 .sidebar{
