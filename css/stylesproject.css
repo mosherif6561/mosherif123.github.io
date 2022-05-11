@@ -331,6 +331,7 @@ img {
     background: #55ACEE;
     color: white;
 }
+
 .hov:hover{
-    background-color: red;
+    background-color: rgb(21, 17, 85);
 }
