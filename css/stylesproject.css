@@ -27,7 +27,7 @@ body {
 }
 
 #dark-mode
-  {
+ {
 	position:absolute;
 	width:45px;
 	height:22px;
@@ -35,9 +35,9 @@ body {
 	top:20px;
 	border:2px solid;
 	border-radius:20px;
-  }
-   #dark-mode:before
-  {
+ }
+#dark-mode:before
+ {
 	position:absolute;
 	content:" ";
 	width:20px;
@@ -49,12 +49,12 @@ body {
 	background:black;
 	transition:0.4s;
 	
-  }
-  #dark-mode.active:before
-  {
+ }
+ #dark-mode.active:before
+ {
 	left:24px;
 	background:#000;
-  }
+ }
 body.night
 {
 background:black;
@@ -86,7 +86,7 @@ background-size: 25%;
   
 .dropdown { overflow: hidden; }
   
-  .dropdown .dropbtn {
+ .dropdown .dropbtn {
 	padding-left: 17px;
 	padding-right: 17px;
 	height: 57px;
