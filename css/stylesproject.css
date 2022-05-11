@@ -279,7 +279,7 @@ img {
     border-color: #04AA6D;
     border-radius: 20px;
     padding: 6px 15px;
-    right: 24px;
+    right: 30px;
     overflow: hidden;
     text-decoration: none;
     font-size: 18px;
@@ -333,5 +333,5 @@ img {
 
 .hov:hover{
     background-color: rgb(21, 17, 85);
-    color: white;
+    color: #fff;
 }
