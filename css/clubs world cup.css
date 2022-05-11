@@ -246,6 +246,7 @@ h1::before {
 }
 
 .Most .imgBx {
+    cursor: pointer;
     background: url('../media/thumbs_b_c_7cf58176a4dc19b0977f7b1e7b4568dd.jpg');
     width: 50%;
     height: auto;
