@@ -144,6 +144,7 @@ body {
 }
 
 .Guinness {
+    cursor: pointer;
     width: 285px;
     height: 324px;
     position: absolute;
@@ -226,6 +227,7 @@ body {
 }
 
 .Westfalenstadion {
+    cursor: pointer;
     position: absolute;
     left: 20px;
     top: 81px;
@@ -279,6 +281,7 @@ body {
 }
 
 .Allianz_Arena {
+    cursor: pointer;
     position: absolute;
     left: 770px;
     top: 81px;
@@ -334,6 +337,7 @@ body {
 }
 
 .Olympiastadion_Berlin {
+    cursor: pointer;
     position: absolute;
     left: 389px;
     top: 590px;
@@ -391,6 +395,7 @@ body {
 }
 
 caption {
+    cursor: pointer;
     background-color: rgb(248, 19, 38);
     color: #ddd;
     font-weight: bold;
@@ -413,16 +418,19 @@ aside {
 }
 
 .top th {
+    cursor: pointer;
     text-align: left;
     padding: 8px;
 }
 
 .top td {
+    cursor: pointer;
     text-align: left;
     padding: 8px;
 }
 
 .top tr {
+    cursor: pointer;
     text-align: left;
     padding: 8px;
     border-bottom: 2px solid transparent;
@@ -451,15 +459,18 @@ aside {
 }
 
 .topC th {
+    cursor: pointer;
     text-align: left;
     padding: 8px;
 }
 
 .topC td {
+    cursor: pointer;
     padding: 8px;
 }
 
 .topC tr {
+    cursor: pointer;
     padding: 8px;
     border-bottom: 2px solid rgb(206, 10, 10);
 }
@@ -491,6 +502,7 @@ aside {
 }
 
 #André_Silva {
+    cursor: pointer;
     position: absolute;
     top: -20px;
     left: 670px;
@@ -498,6 +510,7 @@ aside {
 }
 
 #haaland {
+    cursor: pointer;
     position: absolute;
     top: -20px;
     left: 262px;
@@ -505,6 +518,7 @@ aside {
 }
 
 #Lewandowski {
+    cursor: pointer;
     position: absolute;
     top: 30px;
     left: -250px;
@@ -512,6 +526,7 @@ aside {
 }
 
 #Bellingham {
+    cursor: pointer;
     position: absolute;
     top: 20px;
     left: 120px;
@@ -519,6 +534,7 @@ aside {
 }
 
 #muller {
+    cursor: pointer;
     position: absolute;
     top: 90px;
     left: 1050px;
@@ -526,6 +542,7 @@ aside {
 }
 
 #reus {
+    cursor: pointer;
     position: absolute;
     top: 100px;
     left: 950px;
@@ -559,6 +576,7 @@ aside {
 }
 
 #text {
+    cursor: pointer;
     text-transform: uppercase;
     font-weight: bold;
     font-size: 5vw;
@@ -577,6 +595,7 @@ aside {
 }
 
 .top_scorer {
+    cursor: pointer;
     position: absolute;
     width: 185px;
     height: 220px;
@@ -586,6 +605,7 @@ aside {
 }
 
 .top_assists {
+    cursor: pointer;
     position: absolute;
     width: 185px;
     height: 220px;
@@ -595,6 +615,7 @@ aside {
 }
 
 .top_saves {
+    cursor: pointer;
     position: absolute;
     width: 185px;
     height: 220px;
@@ -604,6 +625,7 @@ aside {
 }
 
 .Scored_Goals {
+    cursor: pointer;
     position: absolute;
     width: 185px;
     height: 220px;
@@ -613,6 +635,7 @@ aside {
 }
 
 .penalties_Scored {
+    cursor: pointer;
     position: absolute;
     width: 185px;
     height: 220px;
@@ -622,6 +645,7 @@ aside {
 }
 
 .Own_Goals {
+    cursor: pointer;
     position: absolute;
     height: 220px;
     top: 177%;
@@ -630,6 +654,7 @@ aside {
 }
 
 .BA_photo {
+    cursor: pointer;
     width: 100px;
     position: absolute;
     opacity: 1;
@@ -644,6 +669,7 @@ aside {
 }
 
 .WO_photo {
+    cursor: pointer;
     width: 100px;
     position: absolute;
     opacity: 1;
@@ -658,6 +684,7 @@ aside {
 }
 
 .BO_photo {
+    cursor: pointer;
     width: 120px;
     position: absolute;
     opacity: 1;
@@ -672,6 +699,7 @@ aside {
 }
 
 .Yann_photo {
+    cursor: pointer;
     width: 100px;
     position: absolute;
     opacity: 1;
@@ -687,6 +715,7 @@ aside {
 }
 
 .lv_photo {
+    cursor: pointer;
     width: 214px;
     position: absolute;
     opacity: 1;
@@ -702,6 +731,7 @@ aside {
 }
 
 .mu_photo {
+    cursor: pointer;
     width: 214px;
     position: absolute;
     opacity: 1;
@@ -723,6 +753,7 @@ aside {
 }
 
 .up {
+    cursor: pointer;
     position: absolute;
     top: 100%;
     border-radius: 5px;
@@ -808,6 +839,7 @@ aside {
 }
 
 .black {
+    cursor: pointer;
     text-align: center;
     font-weight: bold;
     color: white;
@@ -831,6 +863,7 @@ aside {
 }
 
 .logos_1 {
+    cursor: pointer;
     display: flex;
     position: absolute;
     flex-flow: row nowrap;
@@ -842,6 +875,7 @@ aside {
 }
 
 .logos_2 {
+    cursor: pointer;
     position: absolute;
     display: flex;
     height: 66px;
@@ -850,6 +884,7 @@ aside {
 }
 
 .logos_0 {
+    cursor: pointer;
     width: 251px;
     height: 200px;
     position: relative;
@@ -858,6 +893,7 @@ aside {
 }
 
 .bundesliga {
+    cursor: pointer;
     position: absolute;
     width: 100%;
     align-self: center;
@@ -866,6 +902,7 @@ aside {
 }
 
 .media {
+    cursor: pointer;
     width: auto;
     height: 400px;
     position: absolute;
@@ -874,12 +911,14 @@ aside {
 }
 
 audio {
+    cursor: pointer;
     position: absolute;
     top: 450px;
     left: 100px;
 }
 
 video {
+    cursor: pointer;
     position: absolute;
     top: 80px;
     left: -65px;
