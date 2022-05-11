@@ -47,6 +47,12 @@ cursor: pointer;}
 background-color: #301B3F;
 color: #B4A5A5;}
 
+.dark .whitebg img{ filter: grayscale(1); }
+
+.dark .whitebg img:hover{filter: grayscale(0);}
+
+.dark #lion{ filter: grayscale(0);}
+
 
 #dark-mode{
 position:absolute;
