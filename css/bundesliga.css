@@ -63,7 +63,7 @@ header .navbar ul li {
 header .navbar ul li a {
     font-size: 20px;
     padding: 12px;
-    margin-left: 10px;
+    margin-left: 0px;
     color: var(--text_color1);
     display: block;
     text-decoration: none;
@@ -100,12 +100,12 @@ header .navbar ul li ul a:hover {
 header .navbar ul li ul li {
     width: 100%;
     /* border-top: 2px solid var(--bg_color4); */
-    border-bottom: 2px solid var(--bg_color4);
+    border-bottom: 2px solid var(--bg_color2);
 }
 
 header .navbar ul li ul li:hover {
     /*  border-top: 2px solid var(--bg_color8); */
-    border-bottom: 2px solid var(--bg_color8);
+    border-bottom: 2px solid var(--bg_color12);
 }
 
 
