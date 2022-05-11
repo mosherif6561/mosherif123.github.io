@@ -109,6 +109,58 @@ width: 59px;
 position: absolute;
 left: 50px;}
 
+#bfhistory{
+color: goldenrod;
+background-color: #557B83;
+width: 215px; padding: 10px;
+border: 0px white solid;
+border-radius: 12px;
+margin-top: 1%;
+}
+
+#history{
+  line-height: 1.6;
+  background-color: #e5efc1bb;
+  margin: 20px 0px;
+  border: 0px white solid;
+  border-radius: 12px;
+  padding: 5px;
+}
+
+#add2{
+background-color: rgb(102, 219, 180);
+width: 120px;
+padding: 10px;
+margin-bottom: 1%;
+border: 0px white solid;
+border-radius: 12px;
+background-color: #557B83;
+color: goldenrod;
+}
+
+#add4{
+background-color: #557B83;
+color: goldenrod;
+width: 130px; 
+padding: 10px; 
+margin-top: 2%;
+margin-bottom: 2%; 
+border: 0px white solid; 
+border-radius: 12px;}
+
+#draw{
+background-color: rgb(102, 219, 180); 
+width: fit-content; 
+margin:2% auto; 
+padding: 5px; 
+border-radius: 12px;}
+
+#orgin{
+line-height: 1.5; 
+background-color: #e5efc1bb; 
+padding: 5px; 
+border-radius: 12px; }
+
 .main{flex-direction: row}
 
 .sidebar{
