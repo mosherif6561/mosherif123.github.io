@@ -29,7 +29,7 @@
 .head {
     /*position: sticky;*/
     position: fixed; 
-    top: 2px;
+    top: 1px;
     left: 0;
     right: 0;
     background: var(--bg_color2);
@@ -500,7 +500,7 @@ section::after {
     mix-blend-mode: color;
 }
 
-section {
+section .players {
     position: relative;
     width: 100vw;
     height: 100vh;
@@ -508,6 +508,7 @@ section {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 85px;
 }
 
 #André_Silva {
