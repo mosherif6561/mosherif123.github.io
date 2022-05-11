@@ -27,8 +27,8 @@
 }
 
 .head {
-    position: sticky;
-    /*  position: fixed; */
+    /*position: sticky;*/
+    position: fixed; 
     top: 2px;
     left: 0;
     right: 0;
