@@ -163,6 +163,15 @@ border-radius: 12px; }
 
 .c1b,.c1c:hover{ cursor: pointer;}
 
+iframe{ 
+width: 900px;
+height: 800px;
+margin-left: auto;
+margin-right: auto;
+display: block;
+margin-top: 2%;
+margin-bottom: 2%;}
+
 .main{flex-direction: row}
 
 .sidebar{
