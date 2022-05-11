@@ -1,3 +1,24 @@
+:root {
+    --text_color1: #fff;
+    --text_color2: #101010;
+    --text_color3: #420808;
+    --text_color4: #d32525;
+    --text_color5: #143564;
+    --text_color6: #3f8ffc;
+    --bg_color1: #881c50;
+    --bg_color2: #222222;
+    --bg_color3: #315c8f;
+    --bg_color4: #3475ca;
+    --bg_color5: #641010;
+    --bg_color6: #0e3a68;
+    --bg_color7: #12222d;
+    --bg_color8: #fff;
+    --bg_color9: #262626;
+    --bg_color10: #262626;
+    --bg_color11:#f9f9f9;
+    --transition-some: background .3s, box-shadow 0.4s;
+    --transition-all: all 0.4s;
+}
 * {
     margin: 0px;
     padding: 0px;
