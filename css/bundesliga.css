@@ -27,8 +27,8 @@
 }
 
 .head {
-    /*position: sticky;*/
-    position: fixed; 
+    position: sticky;
+   /* position: fixed; */
     top: 1px;
     left: 0;
     right: 0;
@@ -478,7 +478,7 @@ aside {
     background-color: rgb(248, 19, 38);
 }
 
-.players::before {
+section::before {
     content: '';
     position: absolute;
     top: 0;
@@ -489,7 +489,7 @@ aside {
     z-index: 1000;
 }
 
-.players::after {
+section::after {
     content: '';
     position: absolute;
     bottom: 0;
@@ -500,7 +500,7 @@ aside {
     mix-blend-mode: color;
 }
 
- .players {
+ section {
     position: relative;
     width: 100vw;
     height: 100vh;
@@ -508,7 +508,6 @@ aside {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 85px;
 }
 
 #André_Silva {
