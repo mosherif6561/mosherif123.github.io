@@ -125,6 +125,7 @@ body {
 }
 
 .history {
+    cursor: pointer;
     background-color: #02181d;
     position: absolute;
     width: 98%;
