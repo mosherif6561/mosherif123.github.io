@@ -163,7 +163,8 @@ left: 50px;}
 td:hover{ 
 background-color: #661e71;
 color: white;
-cursor: pointer;}
+cursor: pointer;
+transform:scale(1.20,1.20);}
 
 #lion{
 margin: 0px; 
