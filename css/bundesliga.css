@@ -82,7 +82,7 @@ header .navbar ul li a:hover {
 header .navbar ul li ul {
     position: absolute;
     left: 0;
-    min-width: 200px;
+    min-width: 278px;
     max-width: 350px;
     display: none;
 }
