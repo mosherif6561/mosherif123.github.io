@@ -83,7 +83,7 @@ header .navbar ul li ul {
 }
 
 header .navbar ul li ul a {
-    background: var(--bg_color12);
+    background: var(--bg_color11);
     color: var(--text_color2); 
 }
 
