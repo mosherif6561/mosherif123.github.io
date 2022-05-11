@@ -7,3 +7,7 @@ darkMode.addEventListener("click",function(){
     content.classList.toggle("night");
 })();
 
+function scrollupFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
