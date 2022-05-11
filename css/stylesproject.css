@@ -41,7 +41,7 @@ body {
 	border:2px solid;
 	border-radius:20px;
   }
-   #dark-mode:before
+#dark-mode:before
   {
 	position:absolute;
 	content:" ";
@@ -134,11 +134,11 @@ background-size: 25%;
   }
   
 .WebLogo {
-   height: 57px;
-	  width: 59px;
-	  position: absolute;
-	  left: 50px;
-  }
+     height: 57px;
+     width: 59px;
+     position: absolute;
+     left: 50px;
+}
 
 .header {
     background-color: rgb(11, 14, 82);
