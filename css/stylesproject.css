@@ -7,7 +7,7 @@ body {
     margin: 0;
     text-align: left;
 }
-Html{scroll:smooth;}
+Html{scroll-behavior:smooth;}
 
 .active { 
     background-color: rgb(11, 14, 82);
