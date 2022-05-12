@@ -250,7 +250,7 @@ body {
     bottom: 0;
     width: 0%;
     height: 100%;
-    transition: all 1s ease 0.01s;
+    transition: .7s ease;
 }
 
 .Westfalenstadion:hover .W_overlay {
@@ -269,7 +269,7 @@ body {
     top: 280px;
     left: 184px;
     transform: translate(-50%, -50%);
-   transition: all 1s ease 0.01s;
+    transition: opacity .7s ease 0.2s;
     text-align: justify;
 }
 
@@ -305,7 +305,7 @@ body {
     left: 100%;
     width: 0%;
     height: 100%;
-    transition: all 1s ease 0.01s;
+    transition: .7s ease;
 }
 
 .Allianz_Arena:hover .A_overlay {
@@ -325,7 +325,7 @@ body {
     top: 64px;
     left: 0px;
     transform: translate(10%, 10%);
-    transition: all 1s ease 0.01s;
+    transition: opacity .7s ease 0.2s;
     text-align: justify;
 }
 
@@ -362,7 +362,7 @@ body {
     right: 0;
     width: 100%;
     height: 0;
-    transition: all 1s ease 0.01s;
+    transition: .7s ease;
 }
 
 .Olympiastadion_Berlin:hover .O_overlay {
