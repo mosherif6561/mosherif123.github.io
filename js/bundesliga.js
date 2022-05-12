@@ -1,5 +1,5 @@
-window.addEventListener('scroll', function() {
-    var value = window.scrollY;
+    addEventListener('scroll', function() {
+    var value = scrollY;
     bg.style.top = value * 0.5 + 'px';
     André_Silva.style.top = value * -0.6 + 'px';
     André_Silva.style.marginLeft = value * 0.6 + 'px';
