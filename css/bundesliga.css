@@ -191,7 +191,7 @@ body {
 
 .Guinness:hover .Guinness_text {
     opacity: 1;
-    transform: translate(0%, 00%);
+    transform: translate(0%, 0%);
     position: absolute;
     top: 26px;
     left: 9px;
@@ -250,7 +250,7 @@ body {
     bottom: 0;
     width: 0%;
     height: 100%;
-    transition: .7s ease;
+    transition: all 1s ease 0.01s;
 }
 
 .Westfalenstadion:hover .W_overlay {
@@ -269,7 +269,7 @@ body {
     top: 280px;
     left: 184px;
     transform: translate(-50%, -50%);
-    transition: opacity .7s ease 0.2s;
+   transition: all 1s ease 0.01s;
     text-align: justify;
 }
 
@@ -305,7 +305,7 @@ body {
     left: 100%;
     width: 0%;
     height: 100%;
-    transition: .7s ease;
+    transition: all 1s ease 0.01s;
 }
 
 .Allianz_Arena:hover .A_overlay {
@@ -325,7 +325,7 @@ body {
     top: 64px;
     left: 0px;
     transform: translate(10%, 10%);
-    transition: opacity .7s ease 0.2s;
+    transition: all 1s ease 0.01s;
     text-align: justify;
 }
 
@@ -362,7 +362,7 @@ body {
     right: 0;
     width: 100%;
     height: 0;
-    transition: .7s ease;
+    transition: all 1s ease 0.01s;
 }
 
 .Olympiastadion_Berlin:hover .O_overlay {
