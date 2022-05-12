@@ -121,7 +121,6 @@ html {
 body {
     position: relative;
     overflow-x: hidden;
-    position: relative;
     background: #062830;
 }
 
@@ -661,7 +660,7 @@ aside {
     width: 100px;
     position: absolute;
     opacity: 1;
-    transition: opacity 1s ease 0s;
+    transition: all 1s ease 0.01s;
     top: 23%;
     left: 24%;
 }
@@ -676,7 +675,7 @@ aside {
     width: 100px;
     position: absolute;
     opacity: 1;
-    transition: opacity 1s ease 0s;
+    transition: all 1s ease 0.01s;
     top: 24%;
     left: 22%;
 }
@@ -691,7 +690,7 @@ aside {
     width: 120px;
     position: absolute;
     opacity: 1;
-    transition: opacity 1s ease 0s;
+    transition: all 1s ease 0.01s;
     top: 22%;
     left: 18%;
 }
@@ -706,7 +705,7 @@ aside {
     width: 100px;
     position: absolute;
     opacity: 1;
-    transition: opacity 1s ease 0s;
+    transition: all 1s ease 0.01s;
     top: 15%;
     right: 50%;
     left: 18%;
@@ -722,7 +721,7 @@ aside {
     width: 214px;
     position: absolute;
     opacity: 1;
-    transition: opacity 1s ease 0s;
+    transition: all 1s ease 0.01s;
     top: 15%;
     right: 50%;
     left: -8%;
@@ -738,7 +737,7 @@ aside {
     width: 214px;
     position: absolute;
     opacity: 1;
-    transition: opacity 1s ease 0s;
+    transition: all 1s ease 0.01s;
     top: 15%;
     right: 50%;
     left: -8%;
